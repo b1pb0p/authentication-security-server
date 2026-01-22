@@ -1,0 +1,188 @@
+[
+    {
+        "username": "weak_user_0",
+        "password": "a3544",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_1",
+        "password": "6b2a0",
+        "strength": "weak",
+        "totp_secret": "LZB6YGZ77ZK57NGVSLYVHW5WFQUHGSLP"
+    },
+    {
+        "username": "weak_user_2",
+        "password": "ab02",
+        "strength": "weak",
+        "totp_secret": "JPAIZJQBHC64PEZWYTMJV6CILG3TDQ77"
+    },
+    {
+        "username": "weak_user_3",
+        "password": "6b326",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_4",
+        "password": "25555",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_5",
+        "password": "451b4",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_6",
+        "password": "060bb",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_7",
+        "password": "54052",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_8",
+        "password": "66ab",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "weak_user_9",
+        "password": "a304",
+        "strength": "weak",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_0",
+        "password": "P30hHgz2x9",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_1",
+        "password": "afabGg8lX",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_2",
+        "password": "2vvdaFA8DoM7",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_3",
+        "password": "H6WWDtvg5BdQ",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_4",
+        "password": "jyPTlCmRobL",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_5",
+        "password": "8o6iidYteYS",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_6",
+        "password": "25977022",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_7",
+        "password": "yp1h4yLxf",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_8",
+        "password": "kNZZvxQumE",
+        "strength": "medium",
+        "totp_secret": null
+    },
+    {
+        "username": "medium_user_9",
+        "password": "iF7HeBremEJ",
+        "strength": "medium",
+        "totp_secret": "QI6YTJHQ6T5ADLE5QZOFQSCFV77OJPOC"
+    },
+    {
+        "username": "strong_user_0",
+        "password": "H\"cx7<;t.9.?]8uhe",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_1",
+        "password": "cPoF,Grf4YXe6eBucf#",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_2",
+        "password": "z=M(l083vf~Yc;N`aI2/",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_3",
+        "password": "CNQzE;CsF9~9kC}H",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_4",
+        "password": "Gc(c|7IK1O:oO(Qzk9",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_5",
+        "password": "e(;jtne|SjQFZ`36fR_>",
+        "strength": "strong",
+        "totp_secret": "32G6TI4SO6W6VF7YGWNUIF77YM6OWGBM"
+    },
+    {
+        "username": "strong_user_6",
+        "password": "+?KJ)qA-69aZ|lWeV_Z",
+        "strength": "strong",
+        "totp_secret": "TTVHDHBH333FOAAFIWD73KENMLGAPAVF"
+    },
+    {
+        "username": "strong_user_7",
+        "password": ")c-Rl,swx:-_7E",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_8",
+        "password": "fOadA|NkF|rIW[",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "strong_user_9",
+        "password": "gu?H2)tJA2fNL2JHQ9",
+        "strength": "strong",
+        "totp_secret": null
+    },
+    {
+        "username": "alice",
+        "password": "2113",
+        "strength": "weak",
+        "totp_secret": null
+    }
+]

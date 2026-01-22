@@ -1,0 +1,47 @@
+### Resigter ###
+
+curl -X POST http://127.0.0.1:5000/register ^
+     -H "Content-Type: application/json" ^
+     -d "{\"username\":\"alice\",\"password\":\"a2b25\"}"
+
+
+### Login with wrong password ###
+
+curl -X POST http://127.0.0.1:5000/login ^
+     -H "Content-Type: application/json" ^
+     -d "{\"username\":\"alice\",\"password\":\"a3b25\"}"
+
+### Login with right password ###
+
+curl -X POST http://127.0.0.1:5000/login ^
+     -H "Content-Type: application/json" ^
+     -d "{\"username\":\"alice\",\"password\":\"a2b25\"}"
+
+### Get CAPTCHA code ###
+
+curl -G "http://127.0.0.1:5000/admin/get_captcha_token" ^
+     --data-urlencode "group_seed=25977022"
+
+### Verify CAPTCHA code (replace the string) ###
+
+curl -X POST http://127.0.0.1:5000/captcha_verify ^
+     -H "Content-Type: application/json" ^
+     -d "{\"token\":\"7bb7e419387a5c409975aa1d8d793611cb27362df7b894b7d7e39ffe4c163424\"}"
+
+### Verify TOTP code ###
+
+curl -X POST http://127.0.0.1:5000/login_totp ^
+     -H "Content-Type: application/json" ^
+     -d "{\"username\":\"alice\",\"code\":\"53535533\"}"
+
+You can only generate this code using the Totp class.
+There is no endpoint available for retrieving the TOTP code, as requested.
+To test this, you can generate the code using the following function:
+
+def _generate_code(secret):
+    totp = pyotp.TOTP(secret)
+    return totp.at(int(time.time()))
+
+The totp_secret will be stored in the users.json file.
+
+
